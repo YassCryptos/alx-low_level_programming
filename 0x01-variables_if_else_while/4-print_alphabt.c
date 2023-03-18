@@ -1,0 +1,27 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - prints the alphabet in lowercase except q and e
+ *
+ * Return: End Of Programme
+ *
+ */
+
+int main(void)
+{
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		ch++;
+	}
+	putchar('\n');
+
+	return (0);
+}
