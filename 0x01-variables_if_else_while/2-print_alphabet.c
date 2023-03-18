@@ -3,9 +3,10 @@
 /**
  * main - Lowercase & Uppercase
  *
- * Return: 0 (End of project)
+ * Return: 0 (Success)
  *
  */
+
 int main(void)
 {
 	int ch;
@@ -15,5 +16,6 @@ int main(void)
 	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
 	putchar('\n');
+
 	return (0);
 }
